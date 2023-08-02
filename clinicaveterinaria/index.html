@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/banner.css">
+  <link rel="stylesheet" href="css/bienvenida.css">
+  <link rel="stylesheet" href="css/elegirnos.css">
+  <link rel="stylesheet" href="css/servicios.css">
+  <link rel="stylesheet" href="css/opiniones.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <title>**Veterinaria**</title>
+</head>
+
+<body>
+  <!--Header-->
+  <header id="header" class="header">
+    <div class="container container--h100 flex flex--izqder flex--centrarv">
+      <a href="#">
+        <img src="img/paginaInicial/logo.svg" alt="" class="header__logo" width="250">
+      </a>
+
+      <ul id="lista__contacto" class="flex flex--gap">
+        <li class="flex flex--gap flex--centrarv">
+          <i class="lista__icon fa-solid fa-phone text--color--blue"></i>
+          <p>
+            <strong>Llamános:</strong><br>
+            511-388-7814
+          </p>
+        </li>
+        <li class="flex flex--gap flex--centrarv">
+          <i class="lista__icon fa-solid fa-clock text--color--blue"></i>
+          <p>
+            <strong>Horarios:</strong><br>
+            Lun-Vie: 9am-6pm; Sab: 10am-1pm
+          </p>
+        </li>
+      </ul>      
+      <!--Mostrar y ocultar menu-->
+      <input type="checkbox" id="chkMenu">
+      <label for="chkMenu" id="btnMenu" class="fa-solid fa-bars"></label>
+    </div>
+  </header>
+
+  <!--Separador de 70px-->
+  <div class="padding--top--70"></div>
+  <!--Navegacion-->
+  <nav id="nav" class="nav fondo--color--blue">
+    <div class="container container--h100 flex flex--der flex--centrarv">
+      <ul id="menu" class="nav__lista flex flex--gap">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="nosotros.html">Nosotros</a></li>
+        <li><a href="servicios.html">Servicios</a></li>
+        <li><a href="galeria.html">Galería</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!--Banner o slider-->
+  <section class="banner">
+    <div class="container container--h100 flex flex--centrarv flex--centrarh">
+      <div class="banner__publicidad">
+      <hgroup>
+        <h3 class="banner--sub3">Bienvenidos a MasterPets</h3>
+        <h1 class="titulo">AQUÍ AMAMOS A TU MASCOTA</h1>
+        <h3 class="banner--sub3">Contamos con la más completa linea de soluciones, a un precio accesible.</h3>
+      </hgroup>
+      <a href="#" class="btn__contactanos fondo--color--blue">CONTÁCTANOS</a>
+    </div>
+    <figure>
+      <img class="banner__dog" src="img/paginaInicial/dog_1.png" alt="" width="300">
+    </figure>
+    </div>    
+  </section>
+
+  <!--Informacion principal-->
+  <main>
+    <section id="bienvenida" class="bienvenida container"> 
+      <div class="container__bienvenida flex flex--gap flex--centrarh wrap">
+
+        <figure>
+          <img src="img/paginaInicial/veterinaria_perro.jpg" class="bienvenida__foto" alt="">
+        </figure>
+
+        <article class="bienvenida__conocenos">
+          <hgroup class="text--color--blue">
+            <h2 class="subtitulo--2">AMAMOS A TUS MASCOTAS</h2>
+            <h3 class="subtitulo--3">La más completa linea de soluciones; para el concentido de la casa.</h3>
+          </hgroup>
+
+          <div class="bienvenida__informacion">
+            <p>
+              En MasterPets, amamos los animales y entendemos que tu mascota es parte de tu familia, es por ello que le brindamos un servicio de calidad, las 24 horas del día los 7 días de la semana.
+            </p>
+            <p>
+              Mucho más que un veterinario de la Clínica Veterinaria MasterPets es un espacio que tiene como objetivo integrar a las personas, que, como nosotros, amamos y respetamos a los animales y así proporcionar servicios de calidad a su mascota.
+            </p>
+            <p>
+              No olvide informarse de todas nuestras ofertas y promociones a través de nuestras Pagina en  Facebook y nuestra cuenta de Twitter. Y por supuesto, si desea saber más sobre su mascota y la profesión veterinaria no dude en consultar nuestro blog.
+            </p>
+          </div>
+
+        </article>
+      </div>    
+
+    </section>
+
+    <!--Nuestra veterinaria-->
+    <section class="elegirnos fondo--color--blue paddin--2remv">
+      <div class="container text--color--white">
+        <h2 class="subtitulo--2 centrar--texto">¿Por qué elegir nuestra Veterinaria?</h2>
+        <section id="elegirnos__flex" class="flex flex--centrarh flex--gap centrar--texto wrap">
+          <article class="elegirnos--art">
+            <hgroup>
+              <h3>
+                <i class="elegir__icon fa-solid fa-book"></i>
+              </h3>
+              <h3 class="elegirsep">Tus reservas Online</h3>
+            </hgroup>
+            <p>
+              Reservar una cita en nuestra clínica dental es tan fácil. Con solo un par de click podrás separar un espacio y olvidarte de las colas.
+            </p>
+          </article>
+
+          <article class="elegirnos--art">
+            <hgroup>
+              <h3>
+                <i class="elegir__icon fa-solid fa-phone"></i>
+              </h3>
+              <h3 class="elegirsep">Contamos con una amplia experiencia</h3>
+            </hgroup>
+            <p>
+              En conjunto, nuestro equipo de veterinaria tiene más de medio siglo de experiencia y están listos para ponerlos a su disposición.             
+            </p>
+          </article>
+
+          <article class="elegirnos--art">
+            <hgroup>
+              <h3>
+                <i class="elegir__icon fa-solid fa-magnifying-glass"></i>
+              </h3>
+              <h3 class="elegirsep">Los horarios más flexibles</h3>
+            </hgroup>
+            <p>
+              Trabajamos durante los días regulares. En caso de situaciones de emergencia podemos ir a tu hogar con tan sólo una llamada.            
+            </p>
+          </article>
+        </section>
+      </div>
+    </section>
+
+    <!--Nuestros servicios-->
+    <section class="servicios">
+      <div class="container paddin--2remv">
+        <h2 class="subtitulo--2 text--color--blue centrar--texto">Nuestros Servicios</h2>
+        <div class="margintop--2rem flex flex--gap flex--centrarh wrap">
+          <figure>
+            <img src="img/paginaInicial/atencionprimaria.jpg" class="img__servicio" alt="">
+            <figcaption class="figcaption text--color--blue">Atención Primaria</figcaption>
+          </figure>
+          <figure>
+            <img src="img/paginaInicial/cirujiaveterinaria.jpg" class="img__servicio" alt="">
+            <figcaption class="figcaption text--color--blue">Cirujía Veterinaria</figcaption>
+          </figure>
+          <figure>
+            <img src="img/paginaInicial/laboratorio.jfif" class="img__servicio" alt="">
+            <figcaption class="figcaption text--color--blue">Laboratorio Especializado</figcaption>
+          </figure>
+          <figure>
+            <img src="img/paginaInicial/diagnostico.jpg" class="img__servicio" alt="">
+            <figcaption class="figcaption text--color--blue">Diagnóstico</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section><!--Fin de seccion servicios-->
+
+    <!--Reservaciones-->
+    <section class="reservacion text--color--white flex">
+      <section class="reservacion__cita container flex flex--centrarv flex--centrarh flex--gap wrap">
+        <div class="reservacion__info">
+          <h2 class="subtitulo--2">¿Cómo podemos ayudarte?</h2>
+          <p>
+            Ofrecemos una amplia gama de servicios para el consentido de la familia.
+          </p>
+        </div>
+        <a href="#" class="btn__contactanos fondo--color--blue">Reservar cita</a>
+      </section>
+    </section>
+    
+    <!--Contenido nuestros clientes-->
+    <section id="opiniones">
+      <section class="container paddin--2remv">
+          <h2 class="subtitulo--2 text--color--blue centrar--texto">¿Qué dicen nuestros clientes?</h2>
+          <div class="flex flex--centrarh flex--gap margintop--2rem wrap">
+              <article class="opinion">
+                 <p class="opinion__p opinion--burbuja">La confianza que nos inspiran es absoluta y se basa en los extraordinarios 
+                     resultados que brindan.
+                     Son y serán siempre nuestros veterinarios de cabecera.</p>
+                 <div class="flex flex--centrarv flex--centrarh flex--gap opinion--separacion">
+                     <figure class="opinion__figura">
+                         <img class="opiniones__img__persona" src="img/paginaInicial/opiniones/persona1.jpg" alt="" srcset="">
+                     </figure>
+                      <p class="opinion__p">
+                         <b>Marquez</b><br>
+                         Enfermero.
+                      </p>
+                 </div>                       
+                 
+              </article>
+
+              <article class="opinion">
+                 <p class="opinion__p opinion--burbuja">
+                     Siempre me dan tranquilidad que necesito, con un trato amable para mis mascotas y para mi,
+                     muchas felicidades por el esmero y atenciones. Es algo que valoro  cuando la vida de mi mascota
+                     depende de ello.
+                 </p>
+                 <div class="flex flex--centrarv flex--centrarh flex--gap opinion--separacion">
+                     <figure class="opinion__figura">
+                         <img class="opiniones__img__persona" src="img/paginaInicial/opiniones/persona2.jpg" alt="" srcset="">
+                     </figure>
+                      <p class="opinion__p">
+                         <b>Ramirez</b><br>
+                         Odontóloga.
+                      </p>
+                 </div>
+             </article>
+
+             <article class="opinion">
+                 <p class="opinion__p opinion--burbuja">
+                     Mi perro se perdio hace 3 meses y aparecio muy enfermo. Llamamos a la
+                     Clinica Veterinaria MasterPets y enviarón a un especialista, quien me 
+                     dio todas las indicaciones para que mi mascota se recupere. Gracias!.
+                 </p>
+                 <div class="flex flex--centrarv flex--centrarh flex--gap opinion--separacion">
+                     <figure class="opinion__figura">
+                         <img class="opiniones__img__persona" src="img/paginaInicial/opiniones/persona3.jpg" alt="" srcset="">
+                     </figure>
+                      <p class="opinion__p">
+                         <b>Cesar Zambrano</b><br>
+                         Diseñador Gráfico.
+                      </p>
+                 </div>
+             </article>
+          </div>
+      </section>
+  </section> 
+  </main>
+
+  <!--Footer-->
+  <footer class="footer fondo--color--blue">
+    <div class="container flex flex--izqder flex--gap wrap text--color--white paddin--2remv">
+      <articule class="footer__elemento">
+          <h3>SOBRE NOSOTROS</h3>
+          <p class="justificar--texto">
+             En Master Pets,amamos a los animales y entendemos que tu mascota es 
+             parte de tu familia, es por ello que le brindamos un 
+             servicio de calidad, las 24 horas del día los 7 días de la semana.
+          </p>
+      </articule>
+      <articule class="footer__elemento">
+          <h3>ACCESO RÁPIDO</h3>
+          <nav>
+              <ul class="footer--lista footer__enlace">
+                  <li><a href="" class="text--color--white">Nosotros</a></li>
+                  <li><a href="" class="text--color--white">Nuestros Servicios</a></li>
+                  <li><a href="" class="text--color--white">Contacto</a></li>
+                  <li><a href="" class="text--color--white">Políticas de privacidad</a></li>
+              </ul>
+          </nav>
+      </articule>
+      <articule class="footer__elemento">
+          <h3>INFORMACIÓN DE CONTACTO</h3>
+          <ul class="footer--lista">
+              <li><i class="fa-brands fa-whatsapp"></i>(511)388-7813</li>
+              <li><i class="fa-sharp fa-solid fa-phone"></i>(511) 9963-14697</li>
+              <li><i class="fa-solid fa-envelope"></i>info@veterinariamasterpets.com</li>
+          </ul>
+      </articule>                     
+   </div>
+    
+    <div class="footer__copy">
+        <h5 class="centrar--texto">2023 &copy; Masterpets. Todos los derechos reservados.</h5>
+    </div>
+  </footer>
+  <!--Archivos JS-->
+  <script src="js/menu.js"></script>
+</body>
+
+</html>
